@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: blue;
 }
 
 .App-logo {
@@ -9,14 +10,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: blue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: blue;
 }
 
 .App-link {
@@ -31,3 +32,12 @@
     transform: rotate(360deg);
   }
 }
+body{
+
+  background: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg") no-repeat; 
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
